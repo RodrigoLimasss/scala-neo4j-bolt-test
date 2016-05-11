@@ -1,3 +1,2 @@
-## 'scala-project-example' it is the best structure pattern to initiate a new project in Scala. ##
-
-Scala: 2.11.7
+# scala-neo4j-bolt-test
+This project is only to test the new protocol Bolt of the Neo4j.
