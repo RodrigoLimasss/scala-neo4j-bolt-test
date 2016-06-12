@@ -2,7 +2,7 @@
   * Created by Rodrigo Lima on 10-May-16.
   */
 
-import org.neo4j.driver.v1.{Session, AuthTokens, GraphDatabase}
+import org.neo4j.driver.v1._
 
 trait BoltConnector {
   private val driver = GraphDatabase.driver("bolt://localhost:7687", AuthTokens.basic("neo4j", "123qwe"))
